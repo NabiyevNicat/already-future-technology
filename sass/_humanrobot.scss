@@ -1,0 +1,34 @@
+.human-robot{
+    .container{
+        display:flex;
+        flex-direction: row;
+        margin-left:15%;
+        margin-right:15%;
+        margin-top: 70px;
+        .human-text{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+                h2{ 
+                    font-size: 20px;
+                    font-weight:normal;
+                }
+                h1{
+                    font-size: 45px;
+                    font-weight:bold;
+                    padding: 10px;
+                    padding-left: 3px;
+                }
+                p{  
+                    opacity: 0.8;
+                    font-size: 20px;
+                    line-height: 35px;
+                }
+            }
+        .robot-hand{
+        width: 500px;
+        padding-bottom: 50px;
+        }
+    }
+}

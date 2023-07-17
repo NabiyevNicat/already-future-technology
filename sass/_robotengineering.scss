@@ -1,0 +1,73 @@
+
+.robotengineering{
+    .engineering{
+        background-color: #333333;
+        height: 300px;
+        padding: 100px 200px 100px 200px;
+        .descriptions{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: left;
+            line-height: 60px;
+            .robotization{
+                h2{
+                    color: #aea16a;
+                    font-family: 'DM Sans', sans-serif;
+                    font-size: 29px;
+                    font-weight: normal;
+                    line-height: 30px;
+                    margin-bottom: 25px;
+                }
+                p{
+                    color: whitesmoke;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    font-weight: lighter;
+                    line-height: 30px;
+                }
+                margin-left: 5%;
+            }
+            .ai{
+                h2{
+                    color: #aea16a;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 29px;
+                    font-weight: normal;
+                     margin-bottom: 25px;
+                }
+                p{
+                    color: whitesmoke;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    font-weight: lighter;
+                    line-height: 30px;
+                
+                }
+                margin-left: 5%;
+
+            }
+            .industry{
+                h2{
+                    color: #aea16a;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 29px;
+                    font-weight: normal;
+                     margin-bottom: 25px;
+                    
+                }
+                p{
+                    color: whitesmoke;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 20px;
+                    font-weight: lighter;
+                    line-height: 30px;
+                
+                }
+                margin-left: 5%;
+
+            }
+        }
+    }
+}

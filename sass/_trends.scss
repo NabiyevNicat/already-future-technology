@@ -1,0 +1,31 @@
+
+.trends{
+    .content-trends{
+        .m-text{
+            text-align: center;
+            h1{
+                color: #aea16a;
+                font-family: 'DM Sans', sans-serif;
+                font-size: 48px;
+                font-weight: bolder;
+                line-height: 150px;
+            }
+            p{
+                position: relative;
+                bottom: 20px;
+                color: #0b0b0b;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+                opacity: 0.8;
+            }
+        }
+        .photos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: 11%;
+            margin-right: 11%;
+        
+        }
+    }
+}

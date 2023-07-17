@@ -1,0 +1,38 @@
+.proverb{
+    background-color: black;
+    padding: 0% 15% 0% 15%;
+    position: relative;
+    .line-proverb{
+        background-color: #aea16a;
+        height: 252px;
+        width: 15px;
+        display: inline-flex;
+        position: absolute;
+        top:25% ;
+    }
+    .c-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 7%;
+        padding-top: 10%;
+        img{
+            width: 105px;
+        }
+        p{
+            padding-top: 20px;
+            color: whitesmoke;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: lighter;
+            line-height: 35px;
+        }
+        h2{
+            color: whitesmoke;
+            align-self: flex-end;
+            font-size: 30px;
+            font-family: 'DM Sans', sans-serif;
+            padding-top: 15px;
+        }
+    }
+}

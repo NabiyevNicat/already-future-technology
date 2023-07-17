@@ -1,0 +1,36 @@
+@use "sass/header";
+@use "sass/homepage";
+@use "sass/humanrobot";
+@use "sass/future-of-work";
+@use "sass/cesrobots";
+@use "sass/robotengineering";
+@use "sass/trends";
+@use "sass/proverbpage";
+@use "sass/inteligence";
+@use "sass/aiperspectvives";
+@use "sass/footer";
+
+
+
+
+
+*{
+    margin: 0;
+}
+.homepage{
+    background-image:url(photo/homepage.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 750px;
+}
+.futre-of-work{height: 100vh;
+    background: linear-gradient(to right, black,yellow)
+    
+}
+.trends{height: 850px;}
+
+.cesrobots{ a:hover{background-color: #668a8a;}}
+
+.proverb{height: 400px;}
+
+.artifical-inteligence{height: 960px;}
